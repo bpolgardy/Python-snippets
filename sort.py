@@ -4,7 +4,7 @@ def get_largest_element(list_):
         for element in list_:
             if element > largest_element:
                 largest_element = element
-    return largest_element
+        return largest_element
 
 
 def get_smallest_element(list_):
@@ -13,7 +13,7 @@ def get_smallest_element(list_):
         for element in list_:
             if element < smallest_element:
                 smallest_element = element
-    return smallest_element
+        return smallest_element
 
 
 def get_sorted_list(list_, desc=False):
